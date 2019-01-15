@@ -17,7 +17,9 @@ To get the google keys go to the Google console cloud platform and manage your n
 
 # How it works?
 - Push this app to Heroku
-- Test the API https://webhook-echo-sample.herokuapp.com/echo - use www.hurl.it to test it
+- Test the API https://wapp-bot.herokuapp.com/message - use Postman to test it
+
+![alt text](https://i.imgur.com/UO640SY.png)
 
 Open DialogFlow portal - https://dialogflow.com/
 - Create an account and login
