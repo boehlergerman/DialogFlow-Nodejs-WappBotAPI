@@ -1,0 +1,26 @@
+{
+  "name": "wappbot",
+  "version": "1.0.0",
+  "description": "Experimental project, which allows to detect the instant in which a new message is received and to carry out an automatic answer, with the possibility of giving personalized options. This project is based on an excellent application of an unofficial API for whatsapp, which is thanked below. https://github.com/mukulhase/WebWhatsapp-Wrapper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boehlergerman/WappBot.git"
+  },
+  "author": "German Boehler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boehlergerman/WappBot/issues"
+  },
+  "homepage": "https://github.com/boehlergerman/WappBot#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dialogflow": "^0.7.0",
+    "express": "^4.16.4"
+  }
+}
